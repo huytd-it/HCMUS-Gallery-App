@@ -1,15 +1,18 @@
-package com.androidcodeman.simpleimagegallery.utils;
+package com.example.albums.utils;
 
 import android.content.Context;
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.androidcodeman.simpleimagegallery.R;
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.albums.R;
+//import com.bumptech.glide.Glide;
+//import com.bumptech.glide.request.RequestOptions;
+
 import java.util.ArrayList;
 
 /**
@@ -49,10 +52,10 @@ public class recyclerViewPagerImageIndicator extends RecyclerView.Adapter<indica
 
         holder.positionController.setBackgroundColor(pic.getSelected() ? Color.parseColor("#00000000") : Color.parseColor("#8c000000"));
 
-        Glide.with(pictureContx)
-                .load(pic.getPicturePath())
-                .apply(new RequestOptions().centerCrop())
-                .into(holder.image);
+//        Glide.with(pictureContx)
+//                .load(pic.getPicturePath())
+//                .apply(new RequestOptions().centerCrop())
+//                .into(holder.image);
 
         holder.image.setOnClickListener(new View.OnClickListener() {
             @Override

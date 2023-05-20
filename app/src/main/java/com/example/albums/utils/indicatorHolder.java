@@ -1,11 +1,14 @@
-package com.androidcodeman.simpleimagegallery.utils;
+package com.example.albums.utils;
+
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
-import android.view.View;
-import android.widget.ImageView;
-import com.androidcodeman.simpleimagegallery.R;
+
+import com.example.albums.R;
+
 
 /**
  * Author CodeBoy722

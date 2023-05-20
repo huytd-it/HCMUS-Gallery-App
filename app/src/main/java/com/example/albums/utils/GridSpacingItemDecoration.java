@@ -1,7 +1,8 @@
-package com.androidcodeman.simpleimagegallery.utils;
+package com.example.albums.utils;
 
 import android.graphics.Rect;
 import android.view.View;
+
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
